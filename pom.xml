@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jboss.examples</groupId>
     <artifactId>ticket-monster</artifactId>
-    <version>2.6.1-SNAPSHOT</version>
+    <version>2.6.1</version>
     <packaging>war</packaging>
 
     <name>ticket-monster</name>
@@ -54,7 +53,8 @@
        <connection>scm:git:git@github.com:rhdemoss/ticketmonster-openshift.git</connection>
        <url>scm:git:git@github.com:rhdemoss/ticketmonster-openshift.git</url>
        <developerConnection>scm:git:git@github.com:rhdemoss/ticketmonster-openshift.git</developerConnection>
-    </scm>
+      <tag>ticket-monster-2.6.1</tag>
+  </scm>
 
     <dependencyManagement>
         <dependencies>
